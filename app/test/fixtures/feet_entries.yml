@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  feet: 9.99
+  date: 2025-02-19
+
+two:
+  feet: 9.99
+  date: 2025-02-19

@@ -1,0 +1,10 @@
+<h1>📊 Détails de l'Entrée de Poids</h1>
+</br>
+<div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px; background-color: #f9f9f9;">
+  <p><strong>⚖️ Poids :</strong> <%= @weight_entry.weight %> kg</p>
+  <p><strong>📅 Date :</strong> <%= @weight_entry.date.strftime('%d %B %Y') %></p>
+</div>
+
+<br>
+
+<%= link_to '⬅️ Retour à la liste', weight_entries_path, class: 'btn btn-primary' %>

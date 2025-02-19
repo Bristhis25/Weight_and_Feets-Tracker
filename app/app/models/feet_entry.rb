@@ -1,0 +1,2 @@
+class FeetEntry < ApplicationRecord
+end
